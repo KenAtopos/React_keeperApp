@@ -1,10 +1,11 @@
 import React from "react";
+import AutoFixHighIcon from '@mui/icons-material/AutoFixHigh';
 
 function Header() {
     return (
         <header>
             <h1>
-                Keeper
+                <AutoFixHighIcon /> Keeper
             </h1>
         </header>
     );
